@@ -3,14 +3,15 @@
 
 /* =========================================================
    Typography & Layout – Yooni style (final)
-   Goals covered:
-   - Body text ~11pt (14px) with comfortable line-height
-   - More space between paragraphs/sections
-   - Nested list items slightly larger
-   - More left/right padding (mobile & desktop)
-   - Font change (Inter + Noto Sans KR)
-   - Key content links (CV, main lesson links) larger, like “Available for …”
-   - Keep nav links smaller
+   반영 사항:
+   - 11~16pt 선호: 본문 14px 중심
+   - 모바일/웹 좌우 여백(들여쓰기) 강화
+   - 문단 간 여백 증가
+   - "가장 하위 항목" 글자 약간 확대
+   - 폰트: Inter + Noto Sans KR
+   - 중요한 링크(약력/CV, 카카오ID, 이메일) = 수업 안내 링크와 같은 크기
+   - ## 와 ## 사이(연속 헤딩)는 여백을 많이 띄우지 않음
+   - 카카오톡 ID ↔ Welcome 사이 간격은 지금보다 2배
    ========================================================= */
 
 /* Google Fonts */
@@ -59,6 +60,15 @@ h1, h2, h3 {
   font-weight: 600;
 }
 
+/* ✅ 핵심: 연속 헤딩(## 다음에 ## 등)은 여백을 많이 띄우지 않기 */
+h1 + h2,
+h2 + h2,
+h2 + h3,
+h3 + h3,
+h3 + h2 {
+  margin-top: 0.5em;   /* “많이 띄우지 않음” */
+}
+
 /* 4) Paragraph & list spacing */
 p {
   margin-top: 0;
@@ -77,7 +87,7 @@ li {
   margin-bottom: 0.35em;
 }
 
-/* Nested list items (lower-level emphasis) */
+/* Nested list items (가장 하위 항목) slightly larger */
 ul ul li,
 ol ol li,
 ul ol li,
@@ -94,20 +104,20 @@ ol ul {
   margin-bottom: 0.8em;
 }
 
-/* 5) Default links (keep small-ish by default; we’ll override “key links” below) */
+/* 5) Default links (keep small-ish by default) */
 a {
   font-size: 13px;
 }
 
-/* Links inside headings */
-h1 a,
-h2 a,
-h3 a {
-  font-size: 15px;
-  font-weight: 500;
-}
+/* =========================================================
+   6) Key links = 수업 안내 하위 항목과 동일 크기
+   대상:
+   - "약력 바로가기", "Yooni's CV"
+   - 카카오톡 ID, 이메일 주소
+   - 수업 안내(첫 레벨 리스트) 링크들
+   ========================================================= */
 
-/* First-level list links (e.g., lesson list) */
+/* First-level list links (수업 안내 같은 링크) */
 ul > li > a,
 ol > li > a {
   font-size: 15px;
@@ -121,6 +131,34 @@ ul ol > li > a,
 ol ul > li > a {
   font-size: 14px;
   font-weight: 400;
+}
+
+/* "약력 바로가기", "Yooni's CV", 카카오/이메일 등에 붙일 공통 클래스 */
+.key-link a,
+a.key-link {
+  font-size: 15px;
+  font-weight: 500;
+}
+
+/* H1 옆에 붙는 key-link(약력 바로가기) 정렬 */
+h1 .key-link {
+  font-size: inherit;          /* wrapper는 H1크기 유지 */
+  font-weight: 500;
+  margin-left: 10px;
+}
+
+h1 .key-link a {
+  font-size: 15px;             /* 링크는 수업 안내 링크 크기로 */
+  font-weight: 500;
+  vertical-align: middle;
+}
+
+/* =========================================================
+   7) 카카오톡 ID ↔ Welcome 사이 간격을 2배로
+   index.md에서 카카오 섹션을 <div class="kr-contact">로 감쌌을 때 적용
+   ========================================================= */
+.kr-contact {
+  margin-bottom: 4em;  /* '지금보다 두 배' 느낌으로 넉넉히 */
 }
 
 /* Optional: Korean paragraphs breathe slightly more */
