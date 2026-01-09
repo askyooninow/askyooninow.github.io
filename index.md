@@ -20,7 +20,7 @@ title: Yooni ⎟ 온라인 수업/Online Lessons
 <div class="kr-contract">
 ## 카카오톡
 <span class="key-link">
-[오픈채팅으로 문의하기](https://open.kakao.com/me/askyooninow)
+[오픈채팅으로 문의하기](open.kakao.com/me/askyooninow)
 </span>
 </div>
 
