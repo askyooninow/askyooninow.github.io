@@ -2,12 +2,15 @@
 ---
 
 /* =========================================================
-   Typography & Layout – Yooni style
-   - Body text ~11pt (14px)
-   - Clear section spacing
-   - Nested list emphasis
-   - Comfortable left/right padding (mobile & desktop)
-   - EN/KR bilingual friendly fonts
+   Typography & Layout – Yooni style (final)
+   Goals covered:
+   - Body text ~11pt (14px) with comfortable line-height
+   - More space between paragraphs/sections
+   - Nested list items slightly larger
+   - More left/right padding (mobile & desktop)
+   - Font change (Inter + Noto Sans KR)
+   - Key content links (CV, main lesson links) larger, like “Available for …”
+   - Keep nav links smaller
    ========================================================= */
 
 /* Google Fonts */
@@ -22,7 +25,7 @@ body {
   color: #222;
 }
 
-/* 2) Prevent text from sticking to edges */
+/* 2) Prevent text from sticking to edges (theme-agnostic selectors) */
 main,
 .page-content,
 .wrapper,
@@ -45,7 +48,7 @@ main,
   }
 }
 
-/* 3) Headings scale */
+/* 3) Headings scale (kept modest) */
 h1 { font-size: 24px; }  /* ~18pt */
 h2 { font-size: 20px; }  /* ~15pt */
 h3 { font-size: 17px; }  /* ~13pt */
@@ -65,7 +68,7 @@ p {
 ul, ol {
   margin-top: 0;
   margin-bottom: 1.2em;
-  padding-left: 1.4em;
+  padding-left: 1.4em;   /* list indent */
 }
 
 /* Top-level list items */
@@ -91,9 +94,33 @@ ol ul {
   margin-bottom: 0.8em;
 }
 
-/* 5) Navigation / small links */
+/* 5) Default links (keep small-ish by default; we’ll override “key links” below) */
 a {
   font-size: 13px;
+}
+
+/* Links inside headings */
+h1 a,
+h2 a,
+h3 a {
+  font-size: 15px;
+  font-weight: 500;
+}
+
+/* First-level list links (e.g., lesson list) */
+ul > li > a,
+ol > li > a {
+  font-size: 15px;
+  font-weight: 500;
+}
+
+/* Keep nested list links from becoming too big */
+ul ul > li > a,
+ol ol > li > a,
+ul ol > li > a,
+ol ul > li > a {
+  font-size: 14px;
+  font-weight: 400;
 }
 
 /* Optional: Korean paragraphs breathe slightly more */
