@@ -2,7 +2,7 @@
 title: Ask Yooni Now!
 ---
 
-# Yooni (소개)
+# Welcome to Yooni's classroom!
 
 ## Lessons
 - Deutsch (Online, A1–B2)
