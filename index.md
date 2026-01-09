@@ -17,8 +17,7 @@ title: Ask Yooni Now!
 - [음악이론 수업](theory.md)
 - [클라리넷 수업](clarinet.md)
 
-## 카카오톡
-### yoonisleben
+## 카카오톡 [yoonisleben](kakao.md)
 
 
 
@@ -36,8 +35,7 @@ title: Ask Yooni Now!
 - [Music Theory (Online)](theorylessons.md)
 - [Clarinet (Online)](clarinetlessons.md)
 
-## Contact
-### 📧 askyooninow@gmail.com
+## Contact [📧 askyooninow@gmail.com](email.md)
 
 
 ---
