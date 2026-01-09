@@ -1,5 +1,5 @@
 ---
-title: Ask Yooni Now!
+title: Yooni ⎟ 온라인 수업/Online Lessons
 ---
 
 [KR](#korean) ⎟ [EN](#english) ⎟ [Materials](#materials)
@@ -17,7 +17,8 @@ title: Ask Yooni Now!
 - [음악이론 수업](theory.md)
 - [클라리넷 수업](clarinet.md)
 
-## 카카오톡 [yoonisleben](kakao.md)
+## 카카오톡
+[yoonisleben](kakao.md)
 
 
 
@@ -35,7 +36,8 @@ title: Ask Yooni Now!
 - [Music Theory (Online)](theorylessons.md)
 - [Clarinet (Online)](clarinetlessons.md)
 
-## Contact [📧 askyooninow@gmail.com](email.md)
+## Contact
+[📧 askyooninow@gmail.com](email.md)
 
 
 ---
