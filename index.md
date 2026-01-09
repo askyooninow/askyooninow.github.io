@@ -27,7 +27,7 @@ title: Yooni ⎟ 온라인 수업/Online Lessons
 [Yooni's CV](cven.md)
 
 ### 1:1 or 1:2 online lessons for language and music learners
-### Deutsch (A1-B2) • Music Theory • Clarinet
+### Deutsch(A1-B2)•Music Theory•Clarinet
 ### Available for students aged 7 and up
 ### Since 2014, in South Korea and Germany
 
