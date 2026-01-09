@@ -3,14 +3,13 @@ title: Ask Yooni Now!
 ---
 
 [KR](#korean) ⎟ [EN](#english) ⎟ [Materials](#materials)
-
 <a id="korean"></a>
 # Yooni
 [약력 바로가기](cvkr.md)
 
 ### 온라인 수업 (1:1 또는 1:2)
-### 독일어 (A1-B2)•음악이론(화성학, 집합이론 등)•클라리넷 레슨
-**독일어는 7세 이상, 음악이론과 클라리넷은 40세 이하 학생 분들을 대상으로 수업하고 있습니다.**
+### 독일어(A1-B2)•음악이론•클라리넷 레슨
+**독일어는 7세 이상, 음악이론과 클라리넷은 40세 이하 대상**
 
 
 ## 수업 안내
@@ -19,7 +18,7 @@ title: Ask Yooni Now!
 - [클라리넷 수업](clarinet.md)
 
 ## 카카오톡
-yoonisleben
+### yoonisleben
 
 
 
@@ -29,7 +28,7 @@ yoonisleben
 
 ### 1:1 or 1:2 online lessons for language and music learners
 ### Deutsch (A1-B2) • Music Theory • Clarinet
-**Available for students aged 7 and up**
+### Available for students aged 7 and up
 ### Since 2014, in South Korea and Germany
 
 ## Lessons
@@ -38,7 +37,7 @@ yoonisleben
 - [Clarinet (Online)](clarinetlessons.md)
 
 ## Contact
-📧 askyooninow@gmail.com
+### 📧 askyooninow@gmail.com
 
 
 ---
