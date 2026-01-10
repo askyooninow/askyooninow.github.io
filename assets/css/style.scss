@@ -214,3 +214,17 @@ td:first-child, th:first-child {
     padding: 8px 12px;
   }
 }
+
+.back-home {
+  margin: 1.5em 0 2em 0;
+  font-size: 14px;
+}
+
+.back-home a {
+  text-decoration: none;
+  color: #333;
+}
+
+.back-home a:hover {
+  text-decoration: underline;
+}
