@@ -21,8 +21,7 @@ title: Yooni ⎟ 온라인 수업/Online Lessons
 ## 카카오톡
 <span class="key-link">
 [오픈채팅으로 문의하기](https://open.kakao.com/me/askyooninow)
-</span>
-
+</span></div>
 
 
 <a id="english"></a>
