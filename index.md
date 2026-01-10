@@ -43,7 +43,7 @@ title: Yooni ⎟ 온라인 수업/Online Lessons
 
 <h2>Contact</h2>
 Feel free to contact me with a brief description of your goals and availability.
-<a class="key-link" href=mailto:askyooninow@gmail.com">📧 askyooninow@gmail.com</a>
+<a class="key-link" href="mailto:askyooninow@gmail.com">📧 askyooninow@gmail.com</a>
 
 
 ---
