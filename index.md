@@ -40,10 +40,8 @@ title: Yooni ⎟ 온라인 수업/Online Lessons
 - [Music Theory (Online)](theorylessons.md)
 - [Clarinet (Online)](clarinetlessons.md)
 
-## Contact
-<span class="key-link">
-[📧 askyooninow@gmail.com](mailto:askyooninow@gmail.com)
-</span>
+<h2>Contact</h2>
+<a class="key-link" href=mailto:askyooninow@gmail.com">📧 askyooninow@gmail.com</a>
 
 
 ---
