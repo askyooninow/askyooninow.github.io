@@ -175,3 +175,42 @@ h1 .key-link a {
   color: #8b0000;   /* 어두운 빨간색 (DarkRed) */
 }
 
+/* ===== Table styling ===== */
+
+/* 표 전체 */
+table {
+  border-collapse: collapse;      /* 선 겹치게 */
+  margin: 1.5em 0 2em 0;
+  width: 100%;
+  font-size: 14px;                /* 네가 말한 11–16pt 범위 */
+}
+
+/* 헤더 + 셀 공통 */
+th, td {
+  border: 1px solid #bbb;         /* 선이 명확하게 보이도록 */
+  padding: 10px 18px;             /* 열 사이 여백 핵심 */
+  text-align: center;             /* 가운데 정렬 */
+  vertical-align: middle;
+}
+
+/* 헤더만 살짝 강조 */
+th {
+  background-color: #f5f5f5;
+  font-weight: 600;
+}
+
+/* 첫 번째 열(항목)은 약간 더 안정감 있게 */
+td:first-child, th:first-child {
+  white-space: nowrap;
+  font-weight: 500;
+}
+
+/* 모바일에서 숨 막히지 않게 */
+@media (max-width: 600px) {
+  table {
+    font-size: 13px;
+  }
+  th, td {
+    padding: 8px 12px;
+  }
+}
