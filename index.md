@@ -27,6 +27,10 @@ title: Yooni ⎟ 온라인 수업/Online Lessons
 </div>
 
 
+
+
+
+---
 <a id="english"></a>
 # Welcome to Yooni's classroom!
 [Yooni's CV](/en/cven.html)
@@ -44,6 +48,10 @@ title: Yooni ⎟ 온라인 수업/Online Lessons
 <h2>Contact</h2>
 Feel free to contact me with a brief description of your goals and availability.
 <a class="key-link" href="mailto:askyooninow@gmail.com">📧 askyooninow@gmail.com</a>
+
+
+
+
 
 
 ---
