@@ -18,10 +18,12 @@ title: Yooni ⎟ 온라인 수업/Online Lessons
 - [클라리넷 수업](clarinet.md)
 
 
-## 카카오톡
-<span class="key-link">
-[오픈채팅으로 문의하기](https://open.kakao.com/me/askyooninow)
-</span></div>
+<div class="kr-contract">
+<h2>카카오톡</h2>
+<a class="key-link" href="https://open.kakao.com/me/askyooninow">
+오픈채팅으로 문의하기
+</a>
+</div>
 
 
 <a id="english"></a>
