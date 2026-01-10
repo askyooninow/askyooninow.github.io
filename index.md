@@ -20,6 +20,7 @@ title: Yooni ⎟ 온라인 수업/Online Lessons
 
 <div class="kr-contract">
 <h2>카카오톡</h2>
+  수업 일정 및 수업료에 대한 문의는 카카오톡 오픈채팅으로 부탁드립니다.
 <a class="key-link" href="https://open.kakao.com/me/askyooninow">
 오픈채팅으로 문의하기
 </a>
@@ -41,6 +42,7 @@ title: Yooni ⎟ 온라인 수업/Online Lessons
 - [Clarinet (Online)](clarinetlessons.md)
 
 <h2>Contact</h2>
+Feel free to contact me with a brief description of your goals and availability.
 <a class="key-link" href=mailto:askyooninow@gmail.com">📧 askyooninow@gmail.com</a>
 
 
